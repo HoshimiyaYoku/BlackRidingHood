@@ -1,0 +1,4 @@
+repository "Black Riding Hood"
+  path "/"
+    br "/main"
+    co "/main"

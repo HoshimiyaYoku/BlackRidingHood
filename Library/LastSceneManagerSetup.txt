@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/city_JP.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

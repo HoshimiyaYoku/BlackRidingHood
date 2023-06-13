@@ -1,0 +1,1548 @@
+fileFormatVersion: 2
+guid: 0abf87cf5ea9a784f8510b3ad804d7e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2409798844838815082
+    second: Small_Blackball_10x26_0
+  - first:
+      213: 8619581607618392794
+    second: Small_Blackball_10x26_1
+  - first:
+      213: 5136880023664975161
+    second: Small_Blackball_10x26_2
+  - first:
+      213: -8959249038902408445
+    second: Small_Blackball_10x26_3
+  - first:
+      213: -1491346681321739352
+    second: Small_Blackball_10x26_4
+  - first:
+      213: -142451163425347856
+    second: Small_Blackball_10x26_5
+  - first:
+      213: -4391230431600611511
+    second: Small_Blackball_10x26_6
+  - first:
+      213: -2928223432200468506
+    second: Small_Blackball_10x26_7
+  - first:
+      213: 7365301391324215124
+    second: Small_Blackball_10x26_8
+  - first:
+      213: 2922322598693744905
+    second: Small_Blackball_10x26_9
+  - first:
+      213: 1083965651241277217
+    second: Small_Blackball_10x26_10
+  - first:
+      213: 7413573692778922296
+    second: Small_Blackball_10x26_11
+  - first:
+      213: -5260879092198996259
+    second: Small_Blackball_10x26_12
+  - first:
+      213: -5070228130871254693
+    second: Small_Blackball_10x26_13
+  - first:
+      213: 1023754924632476794
+    second: Small_Blackball_10x26_14
+  - first:
+      213: -1370324040207173582
+    second: Small_Blackball_10x26_15
+  - first:
+      213: 8290332629318791326
+    second: Small_Blackball_10x26_16
+  - first:
+      213: -8290036917440935760
+    second: Small_Blackball_10x26_17
+  - first:
+      213: 1034953661832104530
+    second: Small_Blackball_10x26_18
+  - first:
+      213: 1987467188491781648
+    second: Small_Blackball_10x26_19
+  - first:
+      213: -4831296729106316261
+    second: Small_Blackball_10x26_20
+  - first:
+      213: 4616563038194823370
+    second: Small_Blackball_10x26_21
+  - first:
+      213: 5633448911411874541
+    second: Small_Blackball_10x26_22
+  - first:
+      213: 7202571618651596923
+    second: Small_Blackball_10x26_23
+  - first:
+      213: -8734155425539255172
+    second: Small_Blackball_10x26_24
+  - first:
+      213: -6298102979502184585
+    second: Small_Blackball_10x26_25
+  - first:
+      213: -323215619099520889
+    second: Small_Blackball_10x26_26
+  - first:
+      213: -6553941905826772797
+    second: Small_Blackball_10x26_27
+  - first:
+      213: 1316137135894791824
+    second: Small_Blackball_10x26_28
+  - first:
+      213: 1461286085126598909
+    second: Small_Blackball_10x26_29
+  - first:
+      213: -8145282356122069252
+    second: Small_Blackball_10x26_30
+  - first:
+      213: -984895783057208118
+    second: Small_Blackball_10x26_31
+  - first:
+      213: -4540596205094845949
+    second: Small_Blackball_10x26_32
+  - first:
+      213: -8294270287940348118
+    second: Small_Blackball_10x26_33
+  - first:
+      213: 2860440161063737271
+    second: Small_Blackball_10x26_34
+  - first:
+      213: -4069210037699732755
+    second: Small_Blackball_10x26_35
+  - first:
+      213: 8763332483617365802
+    second: Small_Blackball_10x26_36
+  - first:
+      213: 1211275483312713409
+    second: Small_Blackball_10x26_37
+  - first:
+      213: 2320983826355099966
+    second: Small_Blackball_10x26_38
+  - first:
+      213: 1086217346421177547
+    second: Small_Blackball_10x26_39
+  - first:
+      213: -7692908610772313463
+    second: Small_Blackball_10x26_40
+  - first:
+      213: 2587914656264924426
+    second: Small_Blackball_10x26_41
+  - first:
+      213: -7525212811990486611
+    second: Small_Blackball_10x26_42
+  - first:
+      213: 3269233387704626360
+    second: Small_Blackball_10x26_43
+  - first:
+      213: 654187678703745758
+    second: Small_Blackball_10x26_44
+  - first:
+      213: -9107299059985491530
+    second: Small_Blackball_10x26_45
+  - first:
+      213: 2875129208802148163
+    second: Small_Blackball_10x26_46
+  - first:
+      213: 3929798685821322602
+    second: Small_Blackball_10x26_47
+  - first:
+      213: 3819632401868709610
+    second: Small_Blackball_10x26_48
+  - first:
+      213: -911232881854248488
+    second: Small_Blackball_10x26_49
+  - first:
+      213: -1907281733459042791
+    second: Small_Blackball_10x26_50
+  - first:
+      213: 1309645794943875417
+    second: Small_Blackball_10x26_51
+  - first:
+      213: -4409921403046591504
+    second: Small_Blackball_10x26_52
+  - first:
+      213: -8248805479576656589
+    second: Small_Blackball_10x26_53
+  - first:
+      213: 1511812627827892656
+    second: Small_Blackball_10x26_54
+  - first:
+      213: -3098781956398723664
+    second: Small_Blackball_10x26_55
+  - first:
+      213: 9145597552714499120
+    second: Small_Blackball_10x26_56
+  - first:
+      213: 2796051116410463567
+    second: Small_Blackball_10x26_57
+  - first:
+      213: 8119185024839713412
+    second: Small_Blackball_10x26_58
+  - first:
+      213: 3102633053862798084
+    second: Small_Blackball_10x26_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65a3ce1843517120800000000000000
+      internalID: 2409798844838815082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2b59abdc7ee9770800000000000000
+      internalID: 8619581607618392794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd9584a2dd94740800000000000000
+      internalID: 5136880023664975161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b46fd977a5aa380800000000000000
+      internalID: -8959249038902408445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab2cd6481cad4be0800000000000000
+      internalID: -1491346681321739352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6e03eeb69e50ef0800000000000000
+      internalID: -142451163425347856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f6f8d20373f03c0800000000000000
+      internalID: -4391230431600611511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e747b48d4cdc57d0800000000000000
+      internalID: -2928223432200468506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457f195a79ec63660800000000000000
+      internalID: 7365301391324215124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 130
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901bc3e9bec2e8820800000000000000
+      internalID: 2922322598693744905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12716f644050b0f00800000000000000
+      internalID: 1083965651241277217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831c44aaefd42e660800000000000000
+      internalID: 7413573692778922296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd60337c65a9df6b0800000000000000
+      internalID: -5260879092198996259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51e931d06ee2a9b0800000000000000
+      internalID: -5070228130871254693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c86cb0eab153e00800000000000000
+      internalID: 1023754924632476794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f544bb81abfce0800000000000000
+      internalID: -1370324040207173582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9070603a9d2d0370800000000000000
+      internalID: 8290332629318791326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b80f09985fd3fc80800000000000000
+      internalID: -8290036917440935760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a0e7c3fd4ec5e00800000000000000
+      internalID: 1034953661832104530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 104
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160cccb0e6e49b10800000000000000
+      internalID: 1987467188491781648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b148c11e839c3fcb0800000000000000
+      internalID: -4831296729106316261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0fcc6af93511040800000000000000
+      internalID: 4616563038194823370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea040900f70e2e40800000000000000
+      internalID: 5633448911411874541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78e90fe9bca4f360800000000000000
+      internalID: 7202571618651596923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c749eaf7aeb0ac680800000000000000
+      internalID: -8734155425539255172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77761fb75b4a898a0800000000000000
+      internalID: -6298102979502184585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78017bd5b15b38bf0800000000000000
+      internalID: -323215619099520889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_27
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c806a89f88bb05a0800000000000000
+      internalID: -6553941905826772797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09685bc70cbd34210800000000000000
+      internalID: 1316137135894791824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df03133c3f7874410800000000000000
+      internalID: 1461286085126598909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf656184ad426fe80800000000000000
+      internalID: -8145282356122069252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc4816e082f452f0800000000000000
+      internalID: -984895783057208118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302c5defecf8cf0c0800000000000000
+      internalID: -4540596205094845949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a271d383e15d4ec80800000000000000
+      internalID: -8294270287940348118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b71775db2352b720800000000000000
+      internalID: 2860440161063737271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea1472c7034787c0800000000000000
+      internalID: -4069210037699732755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f97a6b67c9d9970800000000000000
+      internalID: 8763332483617365802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce6efb62a05fc010800000000000000
+      internalID: 1211275483312713409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3992533e7ac53020800000000000000
+      internalID: 2320983826355099966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_39
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 52
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3d4aebe4031f00800000000000000
+      internalID: 1086217346421177547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a5f55906c4d3590800000000000000
+      internalID: -7692908610772313463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0da2b32bae1ae320800000000000000
+      internalID: 2587914656264924426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b61a51d2119790800000000000000
+      internalID: -7525212811990486611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc2bf9e176ae5d20800000000000000
+      internalID: 3269233387704626360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_44
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaf29d4a34241900800000000000000
+      internalID: 654187678703745758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9d05ae1cf5c9180800000000000000
+      internalID: -9107299059985491530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f700648c286e720800000000000000
+      internalID: 2875129208802148163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a654d237513798630800000000000000
+      internalID: 3929798685821322602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeed4f5ae6f020530800000000000000
+      internalID: 3819632401868709610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_49
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 26
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d90c699586aa53f0800000000000000
+      internalID: -911232881854248488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e159e5e59f785e0800000000000000
+      internalID: -1907281733459042791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959b63569ebcc2210800000000000000
+      internalID: 1309645794943875417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3040449dfccc2c0800000000000000
+      internalID: -4409921403046591504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335a980de1b568d80800000000000000
+      internalID: -8248805479576656589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1a1a833990bf410800000000000000
+      internalID: 1511812627827892656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_55
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdc67c8a3aeef4d0800000000000000
+      internalID: -3098781956398723664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_56
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034ca3cc480bbee70800000000000000
+      internalID: 9145597552714499120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45ea7f1da19dc620800000000000000
+      internalID: 2796051116410463567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4820e3743c32da070800000000000000
+      internalID: 8119185024839713412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Blackball_10x26_59
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a0e3f254ce0b20800000000000000
+      internalID: 3102633053862798084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
