@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Black Riding Hood/Packages/manifest.json
+    m_FilePath: E:/SEN SHIMEI/BlackRidingHood_source code/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637877106726350980
+      ticks: 638222603540000000
     m_Hash: 3194731078
   m_LockFileStatus:
-    m_FilePath: D:/Black Riding Hood/Packages/packages-lock.json
+    m_FilePath: E:/SEN SHIMEI/BlackRidingHood_source code/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637877107102331991
+      ticks: 638222603540000000
     m_Hash: 3284863038
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.0.10
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.animation@5.0.10
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.2d.animation@5.0.10
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -34,7 +34,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
       status: 4
@@ -84,6 +84,7 @@ m_PackageAssets:
         - 3.2.15
         - 3.2.16
         - 3.2.17
+        - 3.2.18
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -108,6 +109,12 @@ m_PackageAssets:
         - 5.0.10
         - 5.1.0
         - 5.1.1
+        - 5.2.0
+        - 5.2.1
+        - 5.2.3
+        - 5.2.4
+        - 5.2.6
+        - 5.2.7
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -122,13 +129,48 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
+        - 7.0.6
+        - 7.0.7
+        - 7.0.8
+        - 7.0.9
+        - 7.0.10
+        - 7.0.11
+        - 7.0.12
+        - 7.0.13
+        - 7.1.0
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
+        - 8.0.1
+        - 8.0.2
+        - 8.0.3
+        - 8.0.4
+        - 8.0.5
+        - 9.0.0-pre.1
+        - 9.0.0-pre.3
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 9.0.3
+        - 9.0.4
+        - 9.1.0
+        - 10.0.0-pre.1
+        - 10.0.0-pre.2
+        - 10.0.0
+        - 10.0.1
+        - 10.0.2
+        - 10.0.3
+        - 10.1.0
+        - 10.1.1
         compatible:
+        - 5.0.4
+        - 5.0.5
+        - 5.0.6
+        - 5.0.7
+        - 5.0.8
+        - 5.0.9
         - 5.0.10
-        - 5.1.0
-        - 5.1.1
         verified: 5.0.10
       dependencies:
       - name: com.unity.2d.common
@@ -171,7 +213,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -188,7 +230,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -197,7 +239,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: tool
       description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera
         component which ensures your pixel art remains crisp and clear at different
         resolutions, and stable in motion.
@@ -228,6 +270,8 @@ m_PackageAssets:
         - 5.0.0-pre.2
         - 5.0.0
         - 5.0.1
+        - 5.0.2
+        - 5.0.3
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -263,7 +307,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.1.3
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.psdimporter@4.1.3
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.2d.psdimporter@4.1.3
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -272,7 +316,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
         wants to create multi Sprite character animation using Unity 2D Animation
@@ -319,6 +363,8 @@ m_PackageAssets:
         - 4.1.2
         - 4.1.3
         - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
@@ -332,13 +378,34 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.2
         - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 6.0.7
+        - 6.0.8
+        - 6.0.9
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.3
+        - 8.0.0
+        - 8.0.1
+        - 8.0.2
+        - 8.0.3
+        - 8.0.4
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 9.0.3
         compatible:
-        - 4.1.3
-        - 4.2.0
-        verified: 4.1.3
+        - 4.0.2
+        verified: 4.0.2
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.4
@@ -379,7 +446,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -396,7 +463,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -447,7 +514,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.1.7
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.spriteshape@5.1.7
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.2d.spriteshape@5.1.7
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -456,7 +523,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: SpriteShape Runtime & Editor Package contains the tooling and
         the runtime component that allows you to create very organic looking spline
         based 2D worlds. It comes with intuitive configurator and a highly performant
@@ -519,6 +586,7 @@ m_PackageAssets:
         - 5.1.6
         - 5.1.7
         - 5.2.0
+        - 5.3.0
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.0
@@ -530,12 +598,32 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
+        - 7.0.6
+        - 7.0.7
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 10.0.0-pre.1
+        - 10.0.0-pre.2
+        - 10.0.0
+        - 10.0.1
+        - 10.0.2
+        - 10.0.3
+        - 10.0.4
         compatible:
+        - 5.1.1
+        - 5.1.2
+        - 5.1.3
+        - 5.1.4
+        - 5.1.5
+        - 5.1.6
         - 5.1.7
-        - 5.2.0
         verified: 5.1.7
       dependencies:
       - name: com.unity.mathematics
@@ -582,7 +670,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -599,7 +687,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -649,7 +737,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.5
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.cinemachine@2.6.5
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.cinemachine@2.6.5
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -658,7 +746,7 @@ m_PackageAssets:
         email: 
         url: 
       category: cinematography
-      type: 
+      type: asset
       description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
         If you are upgrading from the Asset Store version of Cinemachine, delete
         the Cinemachine asset from your project BEFORE installing this version from
@@ -705,6 +793,9 @@ m_PackageAssets:
         - 2.6.9
         - 2.6.10
         - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.6.17
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -720,8 +811,25 @@ m_PackageAssets:
         - 2.8.2
         - 2.8.3
         - 2.8.4
+        - 2.8.6
+        - 2.8.9
         - 2.9.0-pre.1
         - 2.9.0-pre.6
+        - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        - 2.9.5
+        - 2.9.7
+        - 2.10.0
+        - 3.0.0-pre.3
+        - 3.0.0-pre.4
+        - 3.0.0-pre.5
+        - 3.0.0-pre.6
+        - 3.0.0-pre.7
+        - 3.0.0-pre.8
+        - 3.0.0-pre.9
+        - 3.0.1
+        - 3.1.0
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -740,6 +848,9 @@ m_PackageAssets:
         - 2.6.9
         - 2.6.10
         - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.6.17
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -755,9 +866,17 @@ m_PackageAssets:
         - 2.8.2
         - 2.8.3
         - 2.8.4
+        - 2.8.6
+        - 2.8.9
         - 2.9.0-pre.1
         - 2.9.0-pre.6
-        verified: 2.6.11
+        - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        - 2.9.5
+        - 2.9.7
+        - 2.10.0
+        verified: 2.6.17
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -791,7 +910,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -808,7 +927,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.15.7
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.collab-proxy@1.15.7
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.collab-proxy@1.15.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -817,7 +936,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -862,6 +981,7 @@ m_PackageAssets:
         - 1.14.15
         - 1.14.16
         - 1.14.17
+        - 1.14.18
         - 1.15.1
         - 1.15.4
         - 1.15.7
@@ -871,6 +991,12 @@ m_PackageAssets:
         - 1.15.15
         - 1.15.16
         - 1.15.17
+        - 1.15.18
+        - 1.17.0
+        - 1.17.1
+        - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -878,17 +1004,36 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.7
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
+        - 2.1.0
+        - 2.2.0
+        - 2.3.1
         compatible:
-        - 1.15.7
-        - 1.15.9
-        - 1.15.12
-        - 1.15.13
-        - 1.15.15
-        - 1.15.16
-        - 1.15.17
+        - 1.3.9
+        - 1.4.9
+        - 1.5.7
+        - 1.6.0
+        - 1.8.0
+        - 1.10.2
+        - 1.12.5
+        - 1.14.1
+        - 1.14.4
+        - 1.14.7
+        - 1.14.9
+        - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -896,10 +1041,12 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.4
+        - 2.0.5
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.17
+        verified: 1.3.9
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
@@ -934,7 +1081,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -951,7 +1098,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -960,7 +1107,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -998,6 +1145,18 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
+        - 3.0.20
+        - 3.0.21
+        - 3.0.22
+        - 3.0.24
+        - 3.0.25
+        - 3.0.26
+        - 3.0.27
+        - 3.0.28
         compatible:
         - 1.0.2
         - 1.0.6
@@ -1029,6 +1188,18 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
+        - 3.0.20
+        - 3.0.21
+        - 3.0.22
+        - 3.0.24
+        - 3.0.25
+        - 3.0.26
+        - 3.0.27
+        - 3.0.28
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1051,7 +1222,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1068,7 +1239,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.12
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1077,7 +1248,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
@@ -1103,6 +1274,12 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
+        - 2.0.16
+        - 2.0.17
+        - 2.0.18
+        - 2.0.20
+        - 2.0.21
+        - 2.0.22
         compatible:
         - 1.0.2
         - 1.0.3
@@ -1122,7 +1299,13 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
-        verified: 2.0.15
+        - 2.0.16
+        - 2.0.17
+        - 2.0.18
+        - 2.0.20
+        - 2.0.21
+        - 2.0.22
+        verified: 2.0.22
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -1144,7 +1327,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1161,7 +1344,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.4
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.ide.vscode@1.2.4
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1170,7 +1353,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -1217,7 +1400,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1234,7 +1417,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.29
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.test-framework@1.1.29
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1243,7 +1426,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Unity Test Framework
-      type: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
@@ -1282,17 +1465,52 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
+        - 1.1.24
+        - 1.1.26
+        - 1.1.27
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
-        verified: 1.1.31
+        verified: 1.1.33
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1318,7 +1536,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1335,7 +1553,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1344,7 +1562,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Text Rendering
-      type: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1450,16 +1668,37 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
+        - 3.2.0-pre.4
+        - 3.2.0-pre.5
+        - 3.2.0-pre.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
         - 4.0.0-pre.1
+        - 4.0.0-pre.2
         compatible:
+        - 3.0.1
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
-        verified: 3.0.6
+        - 3.2.0-pre.4
+        - 3.2.0-pre.5
+        - 3.2.0-pre.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
+        verified: 3.0.8
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -1484,7 +1723,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1501,7 +1740,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1510,7 +1749,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -1585,11 +1824,25 @@ m_PackageAssets:
         - 1.6.2
         - 1.6.3
         - 1.6.4
+        - 1.6.5
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.7.5
+        - 1.7.6
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.8.6
         compatible:
+        - 1.4.7
         - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
@@ -1613,10 +1866,23 @@ m_PackageAssets:
         - 1.6.2
         - 1.6.3
         - 1.6.4
+        - 1.6.5
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.7.5
+        - 1.7.6
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.8.6
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1650,7 +1916,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1667,7 +1933,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1730,7 +1996,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1778,7 +2044,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1826,7 +2092,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1874,7 +2140,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1922,7 +2188,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1970,7 +2236,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -2022,7 +2288,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -2078,7 +2344,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -2127,7 +2393,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -2175,7 +2441,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2223,7 +2489,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2271,7 +2537,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2319,7 +2585,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2367,7 +2633,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2419,7 +2685,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2467,7 +2733,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2523,7 +2789,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2575,7 +2841,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2623,7 +2889,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2687,7 +2953,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2735,7 +3001,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2791,7 +3057,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2839,7 +3105,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2895,7 +3161,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2951,7 +3217,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -3007,7 +3273,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -3079,7 +3345,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -3131,7 +3397,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -3191,7 +3457,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3253,7 +3519,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3301,7 +3567,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3361,7 +3627,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3413,7 +3679,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: D:\unity\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3472,7 +3738,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3488,8 +3754,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -3510,7 +3786,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3523,7 +3799,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3547,8 +3823,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.1.2
         - 2.0.0
         compatible:
+        - 1.1.2
         - 2.0.0
         verified: 2.0.0
       dependencies: []
@@ -3579,7 +3857,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -3597,11 +3875,9 @@ m_PackageAssets:
       status: 4
       errors: []
       versions:
-        all:
-        - 1.0.1
-        compatible:
-        - 1.0.1
-        verified: 1.0.1
+        all: []
+        compatible: []
+        verified: 
       dependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
@@ -3634,7 +3910,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3665,7 +3941,6 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
-        - 1.2.5
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3682,8 +3957,7 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
-        - 1.2.5
-        verified: 1.2.5
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3713,7 +3987,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.4
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.common@4.0.4
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.2d.common@4.0.4
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3729,8 +4003,64 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
         - 4.0.4
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 6.0.7
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 8.0.2
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 9.0.3
+        - 9.0.4
+        - 9.0.5
         compatible:
+        - 4.0.2
+        - 4.0.3
         - 4.0.4
         verified: 4.0.4
       dependencies:
@@ -3765,7 +4095,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637750142160000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3778,7 +4108,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.2
       source: 1
-      resolvedPath: D:\Black Riding Hood\Library\PackageCache\com.unity.2d.path@4.0.2
+      resolvedPath: E:\SEN SHIMEI\BlackRidingHood_source code\Library\PackageCache\com.unity.2d.path@4.0.2
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3794,8 +4124,28 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
         compatible:
+        - 4.0.1
         - 4.0.2
         verified: 4.0.2
       dependencies: []
@@ -3815,7 +4165,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637637511040000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3825,5 +4175,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: D:/Black Riding Hood/Packages
-m_EditorVersion: 2020.3.27f1 (e759542391ea)
+m_ProjectPath: E:/SEN SHIMEI/BlackRidingHood_source code/Packages
+m_EditorVersion: 2020.3.6f1 (338bb68529b2)

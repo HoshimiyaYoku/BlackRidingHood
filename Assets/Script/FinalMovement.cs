@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class FinalMovement : MonoBehaviour
 {
+    // Singleton instance of the FinalMovement class
     public static FinalMovement instance;
     public Rigidbody2D rb;
     public Collider2D coll;
     public Animator anim;
+    
+    // Player movement and status attributes
     public float speed, jumpForce;
     public int damage, health, maxHealth, maxMagic, magic;
     public Transform groundCheck;
@@ -17,12 +20,13 @@ public class FinalMovement : MonoBehaviour
     public GameObject Necklace;
     public GameObject weapon;
 
+    // Player state flags
     public bool isGround, isJump;
     public bool doubleJump;
     int skyAttack, jumpCount;
     public bool isAttack;
     public bool canAttack = true;
-    public bool isChange = false;//小红帽兽化
+    public bool isChange = false; // Red Riding Hood transformation
     public bool canMove = true;
     public bool isShoot;
     public bool isHurt;
@@ -30,27 +34,35 @@ public class FinalMovement : MonoBehaviour
     public bool isTalk;
     public bool isHenshin;
 
-
+    // Transformation and invincibility timers
     public float timer;
     public float changeTimer = 10.0f;
     public float changeCD = 0f;
     public CircleCollider2D hitBox;
-	public float invisibleTime;
+    public float invisibleTime;
+    
+    // Audio sources for various actions
     public AudioSource hitAudio;
     public AudioSource waveAudio;
     public AudioSource jumpAudio;
     public AudioSource gunAudio;
+    
+    // Current scene
     private Scene scene;
 
+    // Password for the current scene
     public string scenePassword;
 
+    // Reference to the player UI
     public GameObject PlayerUI;
 
-    // Start is called before the first frame update
+    // Called before the first frame update
     private void Awake() 
     {
+        // Get the active scene
         scene = SceneManager.GetActiveScene();
         
+        // Implement singleton pattern
         if(instance == null)
         {
             instance = this;
@@ -65,12 +77,16 @@ public class FinalMovement : MonoBehaviour
         
         DontDestroyOnLoad(gameObject);
     }
+
+    // Called before the first frame update
     void Start()
     {
+        // Initialize player stats
         magic = maxMagic;
         health = maxHealth;
-
         isAlive = true;
+
+        // Get necessary components
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
@@ -79,31 +95,30 @@ public class FinalMovement : MonoBehaviour
         hitBox = GameObject.Find("CheckPoint").gameObject.GetComponent<CircleCollider2D>();
     }
 
-    // Update is called once per frame
+    // Called once per frame
     void Update()
     {
-
-        // Debug.Log(scene.name);
+        // Heal player if certain conditions are met
         if (health < maxHealth && magic >= 6 && Input.GetKeyDown(KeyCode.V))
         {
-            health += (int)(0.3*maxHealth);
+            health += (int)(0.3 * maxHealth);
             magic -= 6;
         }
         
+        // Clamp magic and health values to their maximum
         if(magic < 0)
             magic = 0;
         if(magic > maxMagic)
             magic = maxMagic; 
-        
         if(health < 0)
             health = 0;
         if(health > maxHealth)
             health = maxHealth;
 
+        // Handle transformation logic
         if (isChange)
         {
             changeTimer -= Time.deltaTime;
-            //Debug.Log("changeTimer = " + changeTimer);
             if(changeTimer <= 0f && isGround && isAlive && !isAttack && isChange)
             {
                 DisChange();
@@ -111,7 +126,6 @@ public class FinalMovement : MonoBehaviour
         }
         else
         {
-            //Debug.Log("changeCD = " + changeCD);
             if (changeCD < 30.0f)
             {
                 changeCD += Time.deltaTime;
@@ -122,38 +136,35 @@ public class FinalMovement : MonoBehaviour
             }
         }
 
+        // Handle player actions if not talking and game is not paused
         if (!isTalk && GameObject.Find("Pausemenu") == null)
         {
-            
-            
             Attack();
             Jump();
             Shoot();
-            if (changeCD >= 10.0f && !isChange && QuestManager.instance.wolfIsDie)//CD好了才能变身
+            if (changeCD >= 10.0f && !isChange && QuestManager.instance.wolfIsDie) // Can transform only if cooldown is ready
             {
                 Change();
             }
         }
+
+        // Stop player movement if dead
         if (!isAlive && GameObject.Find("Pausemenu") == null)
         {
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
-        
     }
 
+    // Called at fixed time intervals
     private void FixedUpdate()
     {
-
         GroundMovement();
-        isGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckArea, ground);
-             //判断是否在地面
-
+        isGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckArea, ground); // Check if on the ground
         SwitchAnim();
-        
-        
     }
 
-    void GroundMovement()   //移动
+    // Handles player movement
+    void GroundMovement()
     {
         if (canMove)
         {
@@ -167,7 +178,8 @@ public class FinalMovement : MonoBehaviour
         }
     }
 
-    void Jump()     // 跳跃
+    // Handles player jumping
+    void Jump()
     {
         if(isGround && isAlive)
         {
@@ -178,7 +190,8 @@ public class FinalMovement : MonoBehaviour
             isJump = false;
         }
         
-        if(!isGround && !isJump)        //修复在没有二段跳的情况下可以落下跳跃的bug
+        // Fix bug allowing jump while falling without double jump
+        if(!isGround && !isJump)
         {
             if(Input.GetButtonDown("Jump") && !isHurt && isAlive && doubleJump)
             {
@@ -204,7 +217,8 @@ public class FinalMovement : MonoBehaviour
         }
     }
 
-    void SwitchAnim()   //动画相关
+    // Switches player animations based on state
+    void SwitchAnim()
     {
         anim.SetFloat("running", Mathf.Abs(rb.velocity.x));
 
@@ -230,13 +244,15 @@ public class FinalMovement : MonoBehaviour
                 isHurt = false;
                 anim.SetBool("isHurt", false);
                 coll.sharedMaterial = new PhysicsMaterial2D()
-                    {
-                        friction = 0.0f, bounciness = 0.0f
-                    };
+                {
+                    friction = 0.0f, bounciness = 0.0f
+                };
             }
         }
     }
-    void Attack() //角色攻击开始
+
+    // Start character attack
+    void Attack()
     {
         if(isGround)
             skyAttack = 1;
@@ -255,27 +271,23 @@ public class FinalMovement : MonoBehaviour
         }
     }
 
-    public void AttackOver()    //攻击结束
+    // End attack
+    public void AttackOver()
     {
         isAttack = false;
         anim.SetBool("isAttack", false);
         Necklace.SetActive(true);
     }
 
-    // private void OnTriggerEnter2D(Collider2D other)      // 受击判定
-    // {
-        
-       
-    // }
-    private void OnTriggerEnter2D(Collider2D other)     // 攻击触发判定and受击判定
+    // Attack and hit detection
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if((other.gameObject.tag == "Enemy") && isAttack && isAlive)      //攻击
+        if((other.gameObject.tag == "Enemy") && isAttack && isAlive) // Attack
         {
             magic += 2;
-            AttackScene.Instance.HitPause(12);//原摄像机时停(传入帧数)
-            AttackScene.Instance.CameraShake(0.1f, 0.08f);//原摄像机抖动(时间，抖动力度)
-            //CinemachineShake.Instance.ShakeCamera(10f, .2f);
-            
+            AttackScene.Instance.HitPause(12); // Original camera pause (frames)
+            AttackScene.Instance.CameraShake(0.1f, 0.08f); // Original camera shake (duration, intensity)
+
             if (transform.localScale.x > 0)
             {
                 if (other.GetComponent<Enemy>())
@@ -283,8 +295,7 @@ public class FinalMovement : MonoBehaviour
                 else if (other.GetComponent<NormalEnemy>())
                     other.GetComponent<NormalEnemy>().GetHit(Vector2.right);
                 else if (other.GetComponent<Alice_AI>())
-                    other.GetComponent<Alice_AI>().GetHit(Vector2.right,damage);
-
+                    other.GetComponent<Alice_AI>().GetHit(Vector2.right, damage);
             }
             else if (transform.localScale.x < 0)
             {
@@ -293,14 +304,14 @@ public class FinalMovement : MonoBehaviour
                 else if(other.GetComponent<NormalEnemy>())
                     other.GetComponent<NormalEnemy>().GetHit(Vector2.left);
                 else if (other.GetComponent<Alice_AI>())
-                    other.GetComponent<Alice_AI>().GetHit(Vector2.left,damage);
+                    other.GetComponent<Alice_AI>().GetHit(Vector2.left, damage);
             }
 
-            if (other.GetComponent<FSM>())//小狼专用补丁代码
+            if (other.GetComponent<FSM>()) // Small wolf specific patch
             {
                 other.GetComponent<FSM>().isHit = true;
             }
-            if (other.GetComponent<Werewolf_AI>())//大狼专用补丁代码，用于检测血量
+            if (other.GetComponent<Werewolf_AI>()) // Large wolf specific patch, for health detection
             {
                 other.GetComponent<Werewolf_AI>().health -= damage;
             }
@@ -311,7 +322,7 @@ public class FinalMovement : MonoBehaviour
                 other.GetComponent<NormalEnemy>().TakeDamage(damage);
 
             if (!isHenshin)
-                if(transform.position.x < other.gameObject.transform.position.x)    //后坐力
+                if(transform.position.x < other.gameObject.transform.position.x) // Recoil
                 {
                     rb.velocity = new Vector2(-5, rb.velocity.y);
                 }
@@ -320,13 +331,12 @@ public class FinalMovement : MonoBehaviour
                     rb.velocity = new Vector2(5, rb.velocity.y);
                 }
         }
-        
-        else if((other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyAttack")  && isAlive)   //受到伤害后退
+        else if((other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyAttack") && isAlive) // Knockback on hit
         {
             if (!isChange)
             {
                 hitAudio.Play();
-                AttackScene.Instance.CameraShake(0.1f, 0.1f);//原摄像机抖动(时间，抖动力度)
+                AttackScene.Instance.CameraShake(0.1f, 0.1f); // Original camera shake (duration, intensity)
                 coll.sharedMaterial = new PhysicsMaterial2D()
                 {
                     friction = 0.3f,
@@ -351,7 +361,7 @@ public class FinalMovement : MonoBehaviour
             else
             {
                 hitAudio.Play();
-                AttackScene.Instance.CameraShake(0.1f, 0.1f);//原摄像机抖动(时间，抖动力度)
+                AttackScene.Instance.CameraShake(0.1f, 0.1f); // Original camera shake (duration, intensity)
                 isHurt = true;
                 coll.sharedMaterial = new PhysicsMaterial2D()
                 {
@@ -361,20 +371,20 @@ public class FinalMovement : MonoBehaviour
             }
         }
     }
-    public void DamagePlayer(int damageGet)     //伤害量判定
+
+    // Damage calculation
+    public void DamagePlayer(int damageGet)
     {
         if (isChange)
         {
-            health = health - (int)(damageGet * 0.5f);//减伤代码，按照需要再调整平衡吧
+            health = health - (int)(damageGet * 0.5f); // Damage reduction code, adjust balance as needed
         }
         else
         {
             health -= damageGet;
         }
-        
-        //无敌时间
-        
-        
+
+        // Invincibility time
         if(health < 0)
             health = 0;
         
@@ -385,7 +395,6 @@ public class FinalMovement : MonoBehaviour
             hitBox.enabled = false;
             isAlive = false;
             anim.SetTrigger("Die");
-            // rb.velocity = new Vector2(0, -10);
             PlayerUI.GetComponent<GameOver>().Setup();
         }
         else
@@ -394,15 +403,19 @@ public class FinalMovement : MonoBehaviour
             Invoke("Invisible", invisibleTime);
         }
     }
-    void Invisible()        // 无敌时间
+
+    // Invincibility period
+    void Invisible()
     {
         hitBox.enabled = true;
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckArea);
     }
 
+    // Shoot action
     public void Shoot()
     {
         if(Input.GetButtonDown("Fire2") && isAlive && !isAttack && magic >= 3 && !isChange)
@@ -419,10 +432,8 @@ public class FinalMovement : MonoBehaviour
         }
     }
 
-    
-
-
-    public void ShootOver()    //攻击结束
+    // End shoot
+    public void ShootOver()
     {
         isShoot = false;
         anim.SetBool("isShoot", false);
@@ -435,8 +446,8 @@ public class FinalMovement : MonoBehaviour
         GameObject.Find("Gun").GetComponent<Gun>().Shoot();
     }
 
-
-    public void Change()//HENSHIN!
+    // Transformation (HENSHIN!)
+    public void Change()
     {
         if (Input.GetButtonDown("Fire3") && isAlive && !isAttack && !isChange && isGround)
         {
@@ -452,35 +463,35 @@ public class FinalMovement : MonoBehaviour
         }
     }
 
-    public void ChangingOver()    //攻击结束
+    // End transformation
+    public void ChangingOver()
     {
-        //Debug.Log("ChangingOver");
         canMove = true;
         Necklace.SetActive(true);
-        //Debug.Log("canMove = " + canMove);
         changeTimer = 10.0f;
     }
 
-    public void DisChange()//解除变身
+    // End transformation
+    public void DisChange()
     {
         changeTimer = 10.0f;
-        //Debug.Log("DisChange");
         anim.SetTrigger("disChange");
         Necklace.SetActive(false);
         rb.velocity = new Vector2(rb.velocity.x * 0f, rb.velocity.y);
         canMove = false;
     }
 
+    // End transformation
     public void DisChangeOver()
     {
         canMove = true;
         Necklace.SetActive(true);
         isChange = false;
         anim.SetBool("isChange", false);
-        //Debug.Log("DisChangeOver");
         isHenshin = false;
         changeTimer = 10.0f;
         damage = damage - 5;
     }
-}  
+}
+
 

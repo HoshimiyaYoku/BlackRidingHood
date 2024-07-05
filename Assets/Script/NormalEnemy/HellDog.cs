@@ -13,7 +13,7 @@ public class HellDog : NormalEnemy
             Move();
     }
 
-    public override void GetHit(Vector2 direction)       // 受击
+    public override void GetHit(Vector2 direction)
     {
         hitAudio.Play();
         isHit = true;

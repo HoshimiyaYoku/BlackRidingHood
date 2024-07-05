@@ -154,8 +154,8 @@ public class Weapon : MonoBehaviour
         
         if(other.tag == "Enemy" && isDamage)//FIXME isDamage [Avoid The AXE stop on the ground but still takes damage to Enemy]
         {
-            AttackScene.Instance.HitPause(12);//原摄像机时停(传入帧数)
-            AttackScene.Instance.CameraShake(0.1f, 0.3f);//原摄像机抖动(时间，抖动力度)
+            AttackScene.Instance.HitPause(12);
+            AttackScene.Instance.CameraShake(0.1f, 0.3f);
             if(other.GetComponent<Enemy>())
             {
                 if (throwMoment > 0)
@@ -179,11 +179,11 @@ public class Weapon : MonoBehaviour
                     other.GetComponent<Alice_AI>().GetHit(Vector2.left,damage);
             }
 
-            if (other.GetComponent<FSM>())//小狼专用补丁代码
+            if (other.GetComponent<FSM>())
             {
                 other.GetComponent<FSM>().isHit = true;
             }
-            if (other.GetComponent<Werewolf_AI>())//大狼专用补丁代码，用于检测血量
+            if (other.GetComponent<Werewolf_AI>())
             {
                 other.GetComponent<Werewolf_AI>().health -= damage;
             }

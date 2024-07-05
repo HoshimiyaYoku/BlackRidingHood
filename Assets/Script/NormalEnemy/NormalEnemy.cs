@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NormalEnemy : MonoBehaviour
 {
+    // Serialized fields for enemy properties
     [SerializeField] protected private string enemyName;
     [SerializeField] protected private float moveSpeed;
     [SerializeField] protected private float backSpeed;
@@ -11,6 +12,8 @@ public class NormalEnemy : MonoBehaviour
     [SerializeField] protected private float maxHealthPoint;
     [SerializeField] protected private int damage;
     [SerializeField] protected private float distance;
+
+    // Protected fields for components and state flags
     protected private BoxCollider2D bx2D;
     protected private bool isHit;
     protected private Transform target;
@@ -20,6 +23,8 @@ public class NormalEnemy : MonoBehaviour
     protected private Animator hitAnimator;
     protected private bool isDead;
     protected private bool isAttack;
+
+    // Public fields for attack and detection points
     public Transform attackPoint;
     public float attackArea;
     public Transform enemyCheckPoint;
@@ -27,35 +32,43 @@ public class NormalEnemy : MonoBehaviour
     public LayerMask targetLayer;
     public AudioSource hitAudio;
 
-
-
-    private void  Start() 
+    // Initialization
+    private void Start()
     {
+        // Initialize health points
         healthPoint = maxHealthPoint;
+        
+        // Get necessary components
         bx2D = GetComponent<BoxCollider2D>();
         Introduction();
         hitAnimator = transform.Find("HitAnimation").GetComponent<Animator>();
         rigidbody = transform.GetComponent<Rigidbody2D>();
     }
 
+    // Called once per frame
     protected virtual void Update()
     {
+        // Get the Animator component and the player target
         animator = transform.GetComponent<Animator>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        if(!isHit && !isAttack && !isDead)
-            Move();  
-        if(!isAttack && !isHit && !isDead)
+        
+        // Handle movement and attacks if not hit, attacking, or dead
+        if (!isHit && !isAttack && !isDead)
+            Move();
+        if (!isAttack && !isHit && !isDead)
             Attack();
     }
-   
+
+    // Print enemy introduction message
     private void Introduction()
     {
-        Debug.Log("My Name is " + enemyName + ", HP: "+ healthPoint + ", moveSpeed: " + moveSpeed);
+        Debug.Log("My Name is " + enemyName + ", HP: " + healthPoint + ", moveSpeed: " + moveSpeed);
     }
 
+    // Handle enemy movement
     protected virtual void Move()
     {
-        if(Physics2D.OverlapCircle(enemyCheckPoint.position, enemyCheckArea, targetLayer))
+        if (Physics2D.OverlapCircle(enemyCheckPoint.position, enemyCheckArea, targetLayer))
         {
             animator.SetBool("isMove", true);
             FlipTo(target);
@@ -64,6 +77,8 @@ public class NormalEnemy : MonoBehaviour
         else
             animator.SetBool("isMove", false);
     }
+
+    // Handle enemy attacks
     protected virtual void Attack()
     {
         if (Physics2D.OverlapCircle(attackPoint.position, attackArea, targetLayer))
@@ -74,22 +89,25 @@ public class NormalEnemy : MonoBehaviour
             animator.SetBool("isAttack", true);
         }
     }
+
+    // Flip the enemy to face the target
     public void FlipTo(Transform target)
     {
-        if(target != null)
+        if (target != null)
         {
-            if(transform.position.x > target.position.x)
+            if (transform.position.x > target.position.x)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
             }
-            else if(transform.position.x < target.position.x)
+            else if (transform.position.x < target.position.x)
             {
                 transform.localScale = new Vector3(1, 1, 1);
             }
         }
     }
 
-    public virtual void GetHit(Vector2 direction)       // 受击
+    // Handle getting hit
+    public virtual void GetHit(Vector2 direction)
     {
         hitAudio.Play();
         isHit = true;
@@ -102,7 +120,8 @@ public class NormalEnemy : MonoBehaviour
         animator.SetTrigger("Hit");
         hitAnimator.SetTrigger("Hit");
         animator.SetBool("isAttack", false);
-        
+
+        // Check if health is depleted
         if (healthPoint <= 0)
         {
             rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
@@ -110,44 +129,49 @@ public class NormalEnemy : MonoBehaviour
             animator.SetTrigger("Die");
             this.transform.tag = "Untagged";
         }
-
     }
 
-    public void TakeDamage(int damage)      //受到伤害量
+    // Apply damage to the enemy
+    public void TakeDamage(int damage)
     {
         healthPoint -= damage;
     }
 
-    public virtual void OnTriggerEnter2D(Collider2D other)     //攻击判定
+    // Handle collision with the player
+    public virtual void OnTriggerEnter2D(Collider2D other)
     {
-       if(other.gameObject.tag == "Player" && !isDead) 
+        if (other.gameObject.tag == "Player" && !isDead)
         {
-            if(FinalMovement.instance != null)
+            if (FinalMovement.instance != null)
             {
                 FinalMovement.instance.DamagePlayer(damage);
             }
-        }   
+        }
     }
 
-
+    // Reset state after hit
     void StartMove()
     {
         isHit = false;
         bx2D.enabled = true;
-        animator.SetBool("isMove", true);  
+        animator.SetBool("isMove", true);
     }
 
-    protected virtual void DeathTime()    //死亡
+    // Handle enemy death
+    protected virtual void DeathTime()
     {
         Destroy(gameObject);
     }
 
+    // Reset state after attack
     void AttackOver()
     {
         isAttack = false;
         animator.SetBool("isAttack", false);
         animator.SetBool("isMove", true);
     }
+
+    // Draw gizmos for attack and enemy detection areas
     private void OnDrawGizmos()
     {
         if (attackPoint != null)
@@ -155,7 +179,7 @@ public class NormalEnemy : MonoBehaviour
         if (enemyCheckPoint != null)
             Gizmos.DrawWireSphere(enemyCheckPoint.position, enemyCheckArea);
     }
-
 }
+
 
 

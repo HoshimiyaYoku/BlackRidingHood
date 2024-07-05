@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
+    // Public variables for enemy properties
     public float speed;
     public float invisibleTime;
     public int health;
@@ -14,7 +15,7 @@ public abstract class Enemy : MonoBehaviour
     private float timer = 10f;
     private Animator animator;
     private Animator hitAnimator;
-    new private Rigidbody2D rigidbody;
+    private new Rigidbody2D rigidbody;
     private BoxCollider2D collider2D;
     private FinalMovement playerHealth;
     private bool isDead;
@@ -22,6 +23,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void Start()
     {
+        // Initialize references to player health, animator, rigidbody, and collider
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<FinalMovement>();
         animator = transform.GetComponent<Animator>();
         hitAnimator = transform.Find("HitAnimation").GetComponent<Animator>();
@@ -31,21 +33,21 @@ public abstract class Enemy : MonoBehaviour
 
     public void Update()
     {
+        // Check if enemy health is depleted and handle death
         if (health <= 0 && timer >= 0)
         {
             collider2D.enabled = false;
             isDead = true;
-            //animator.SetTrigger("Dead");
-
+            // animator.SetTrigger("Dead");
             timer -= Time.deltaTime;
         }
-        else if(health <= 0 && timer <= 0)
+        else if (health <= 0 && timer <= 0)
         {
             Destroy(gameObject);
-            
         }
 
-        info = animator.GetCurrentAnimatorStateInfo(0);     // 判断受伤
+        // Update animation state and check if enemy is hit
+        info = animator.GetCurrentAnimatorStateInfo(0);
         if (isHit)
         {
             rigidbody.velocity = direction * speed;
@@ -54,7 +56,8 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    public void GetHit(Vector2 direction)       // 受击
+    // Handle the enemy getting hit
+    public void GetHit(Vector2 direction)
     {
         hitAudio.Play();
         transform.localScale = new Vector3(-direction.x, 1, 1);
@@ -66,23 +69,26 @@ public abstract class Enemy : MonoBehaviour
         hitAnimator.SetTrigger("Hit");
     }
 
-    public void TakeDamage(int damage)      //受到伤害量
+    // Apply damage to the enemy
+    public void TakeDamage(int damage)
     {
         health -= damage;
     }
 
-    void OnTriggerEnter2D(Collider2D other)     //攻击判定
+    // Handle collision with the player
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player") 
+        if (other.gameObject.tag == "Player")
         {
-            if(FinalMovement.instance != null)
+            if (FinalMovement.instance != null)
             {
                 FinalMovement.instance.DamagePlayer(damage);
             }
-        }      
+        }
     }
 
-     void Invisible()        // 无敌时间
+    // Handle invincibility period after getting hit
+    void Invisible()
     {
         collider2D.enabled = true;
     }
